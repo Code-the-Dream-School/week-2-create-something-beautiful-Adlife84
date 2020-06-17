@@ -136,16 +136,22 @@ h3 {
 
 .content_item {
     background: #fff;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 10px 10px 0px grey;
     margin-bottom: 40px;
     padding: 30px;
     border-radius: 10px;
+}
+
+.content_item h3 {
+    border-bottom: 6px solid rgb(255,82,168);
+    display: inline;
 }
 
 .content_item p {
     font-size: 1.5rem;
     line-height: 1.5;
     color:#100e17;
+    margin-top: 20px;
 }
 
 .content_item img {
@@ -167,13 +173,13 @@ h3 {
     text-align: center;
     margin-right: 20px;
     width: 400px;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 0px grey;
     background: #fff;
     border-radius: 5px;
 }
 
 .skills_header {
-   border-bottom: 6px solid rgb(255,82,168);;
+   border-bottom: 6px solid rgb(255,82,168);
 }
 
 .skills_item p {
