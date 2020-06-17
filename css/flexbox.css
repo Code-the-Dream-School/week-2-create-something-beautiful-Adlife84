@@ -146,11 +146,16 @@ h3 {
 *******************/
 
 .content_item {
+    display: flex;
     background: #fff;
     box-shadow: 10px 10px 0px grey;
     margin-bottom: 40px;
     padding: 30px;
     border-radius: 10px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .content_item h3 {
